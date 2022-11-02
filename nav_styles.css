@@ -1,0 +1,33 @@
+.nav-container{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+.nav-container h1{
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+.nav-container li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: var(--secondary-color);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.nav-container li:hover {
+  color: var(--hover-grey-color);
+}
+
+@media (max-width: 420px) {
+  .nav-container{
+    flex-direction: column;
+    align-items: center;
+  }
+}

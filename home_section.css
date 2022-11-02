@@ -1,0 +1,33 @@
+
+.home-section{
+  background-color: var(--lighter-grey-color);
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-radius: 1rem;
+  padding-top: 5rem;
+  height: 73vh;
+}
+
+.home-info-container{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.svg-container{
+  width: 15rem;
+}
+
+.home-info-desciption p{
+  display: inline-block;
+}
+
+@media (max-width:650px) {
+  .home-section{
+    height: 100vh;
+  }
+  .home-info-container{
+    flex-direction: column;
+  }
+}

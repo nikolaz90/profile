@@ -1,0 +1,55 @@
+.about-section{
+  background: linear-gradient(rgba(107, 107, 107, 0.1), rgba(107, 107, 107, 0.6)),
+              url("https://www-img.lewagon.com/QG0NV5COlYabLiH5HuWcsd_E805g3vnbzKPfWNOp-b8/rs:fill:1000:840/plain/s3://wagon-www/4sy2d2fdud1g7rx5e8k1l3c2bwii");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;
+  height: 100vh;
+  margin: 2rem auto;
+  padding-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.about-section p {
+  color: white;
+  font-weight: bolder;
+}
+
+.about-btn{
+  background: linear-gradient(45deg, rgb(181, 222, 109), #FCC766, #FA6E79, #90A7AE);
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+  height: fit-content;
+  width: fit-content;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+
+.about-btn:hover{
+  background: linear-gradient(90deg, rgb(201, 201, 239), var(--lighter-grey-color)) ;
+  box-shadow: 2px 2px 0px var(--secondary-color);
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+.about-section p > a:hover {
+  text-decoration: underline;
+}
+
+.brand-emphasized-red{
+  color: rgb(255, 162, 162);
+}
+
+@media (max-width: 850px) {
+  .about-section{
+    font-size: 1rem;
+  }
+}

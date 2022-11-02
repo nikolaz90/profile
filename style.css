@@ -1,0 +1,55 @@
+@import url('nav_styles.css');
+@import url('home_section.css');
+@import url('about.css');
+@import url('footer.css');
+
+*{
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  text-decoration: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --main-color: rgb(0, 171, 179);
+  --secondary-color: rgb(60, 64, 72);
+  --lighter-grey-color: rgb(234, 234, 234);
+  --hover-grey-color: rgb(178, 178, 178);
+}
+
+.main-color{
+  color: var(--main-color);
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.shadowed{
+  box-shadow: 0px 2px 4px rgb(220, 220, 220);
+}
+
+@media (max-width: 860px) {
+  body{
+    text-align: center;
+  }
+}
